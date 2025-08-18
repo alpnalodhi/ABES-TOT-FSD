@@ -1,0 +1,31 @@
+/* h1{
+    background-color: blueviolet;
+}
+p{
+    color: #000;
+    font-size: 2rem;
+    background-color: aqua;
+} */
+/* .paragraph{
+    color: blueviolet;
+}
+#p1{
+    color: red;
+}
+div p:hover{
+    font-size: 4rem;
+    background-color: blue;
+    color: white;
+} */
+
+p::before{
+    content: "Welcome to ";
+}
+p::after{
+    content: " We have successfuly sumitted";
+    background-color: aqua;
+    counter-reset: red;
+}
+p::selection{
+    background-color: bisque;
+}
