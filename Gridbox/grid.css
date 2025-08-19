@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    border: 1px solid black;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* grid-template-columns: repeat(2,3fr); */
+}
+.grid1{
+    height: auto;
+    width: auto;
+    border: 1px double green;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid2{
+    height: 150px;
+    width: 150px;
+    border: 1px double green;
+}
+.grid3{
+    height: 150px;
+    width: 150px;
+    border: 1px double green;
+}
+.grid4{
+    height: 150px;
+    width: 150px;
+    border: 1px double green;
+}
