@@ -1,6 +1,7 @@
     *{
         margin: 0px;
         box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ;
       }
       .header{
         height: 6rem;
@@ -19,14 +20,14 @@
         font-weight: 300;
       }
       .header ul{
-        padding-top: 2rem;
+        padding-top: 1.5rem;
       }
       .header .menu ul li{
         display: inline-block;
-        font-size: 1.5rem;
-        vertical-align: middle;
+        font-size: 1rem;
         padding-right: 20px;
         color: #1e1b1b8a;
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ;
       }
       .header .menu .active{
         color: blue!important;
@@ -39,9 +40,23 @@
       .middle-section{
         display: grid;
         grid-template-columns: auto auto;
+        padding-top: 7rem;
+        padding-bottom: 2rem;
       }
       .middle-section .content{
-        padding-left: 250px;
+        padding-left: 170px;
+      }
+      .red{
+        background: #ed12a0;
+        border: none!important;
+        padding: 15px 35px;
+        border-radius: 10px;
+      }
+      .blue{
+        background: #12d3ed;
+        border: none!important;
+        padding: 15px 35px;
+        border-radius: 10px;
       }
       .footer{
         height: 3rem;
