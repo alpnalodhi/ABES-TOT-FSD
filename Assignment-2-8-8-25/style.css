@@ -40,6 +40,9 @@
         display: grid;
         grid-template-columns: auto auto;
       }
+      .middle-section .content{
+        padding-left: 250px;
+      }
       .footer{
         height: 3rem;
         background: #000;
