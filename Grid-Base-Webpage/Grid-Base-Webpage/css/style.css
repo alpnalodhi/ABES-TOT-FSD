@@ -10,7 +10,7 @@
         height: auto;
         width: 15rem;
         padding-left: 2rem;
-        margin-right: 40rem;
+        margin-right: 35rem;
         float: left;
       }
       .header ul{
@@ -20,15 +20,14 @@
         display: inline-block;
         font-size: 1.5rem;
         color: #fff;
-        margin-right: 50px;
-        vertical-align: middle;
+        margin-right: 40px;
       }
       .middle-section{
         display: grid;
         grid-template-columns: auto auto auto auto;
         row-gap: 30px;
         column-gap: 30px;
-        padding: 80px 150px;
+        padding: 80px 0px;
         background: #e4e4e4;
       }
       .middle-section > div {
