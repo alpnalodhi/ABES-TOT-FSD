@@ -1,0 +1,106 @@
+    *{
+        margin: 0px;
+        box-sizing: border-box;
+      }
+      .header{
+        background: #000;
+        height: 6rem;
+      }
+      .header img{
+        height: auto;
+        width: 15rem;
+        padding-left: 2rem;
+        margin-right: 40rem;
+        float: left;
+      }
+      .header ul{
+        padding-top: 2rem;
+      }
+      .header ul li{
+        display: inline-block;
+        font-size: 1.5rem;
+        color: #fff;
+        margin-right: 50px;
+        vertical-align: middle;
+      }
+      .middle-section{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        row-gap: 30px;
+        column-gap: 30px;
+        padding: 80px 150px;
+        background: #e4e4e4;
+      }
+      .middle-section > div {
+        background-color: #ffffff;
+        padding: 20px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        row-gap: 20px;
+        box-shadow: 5px 10px #8888881f;
+        border-radius: 10px;
+      }
+      .middle-section img{
+        height: 7rem;
+      }
+      .m1{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .m2{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .m3{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .m4{
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+      .m11{
+        display: grid;
+      }
+      .m12{
+        display: grid;
+      }
+      .m13{
+        display: grid;
+      }
+      .m14{
+        display: grid;
+      }
+      .m21{
+        display: grid;
+      }
+      .m22{
+        display: grid;
+      }
+      .m23{
+        display: grid;
+      }
+      .m24{
+        display: grid;
+      }
+      .m31{
+        display: grid;
+      }
+      .m32{
+        display: grid;
+      }
+      .m33{
+        display: grid;
+      }
+      .m34{
+        display: grid;
+      }
+      .footer{
+        height: 3rem;
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } 
